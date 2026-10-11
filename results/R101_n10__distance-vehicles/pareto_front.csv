@@ -1,0 +1,2 @@
+rank,objective_vector,distance,vehicles,makespan,waiting,n_routes,routes
+0,"[269.533141, 4.0]",269.533141,4,192.0,260.127555,4,7-10-1 | 5-8 | 9-3-4 | 2-6

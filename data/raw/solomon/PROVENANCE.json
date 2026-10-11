@@ -1,0 +1,684 @@
+{
+  "source_repo": "https://github.com/PyVRP/Instances",
+  "source_dir": "VRPTW/Solomon",
+  "source_ref": "main",
+  "source_commit": "7474b068a8effa7f39448b241314b615c9271525",
+  "license": "MIT (see LICENSE, benchmark data notice)",
+  "fetched_at": "2026-10-11T18:08:06+00:00",
+  "file_count": 112,
+  "total_bytes": 173754,
+  "files": [
+    {
+      "name": "C101.sol",
+      "bytes": 414,
+      "sha256": "ee07c932bc4200e0782e25fccdf8f3b7548ce07b841f66906d6dce8973be0f00",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C101.vrp",
+      "bytes": 2763,
+      "sha256": "048312f0b95a6e474736f18e951322a002762016a08adb2d0cdf5688ad0a8192",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C102.sol",
+      "bytes": 414,
+      "sha256": "ee07c932bc4200e0782e25fccdf8f3b7548ce07b841f66906d6dce8973be0f00",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C102.vrp",
+      "bytes": 2743,
+      "sha256": "f1a7c1473aa13fdef92193525d9394f8671ae7f943a10cad37e17bda0879e14f",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C103.sol",
+      "bytes": 414,
+      "sha256": "675b45a47a6f1433bc9606349ca4baafb0ba255248ca20a68c6b3495d2dba17b",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C103.vrp",
+      "bytes": 2727,
+      "sha256": "70471412625d1745bc680def436a21cdf67c44946c6d1f10544013d1d66a6676",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C104.sol",
+      "bytes": 414,
+      "sha256": "c9759507f943c984c4a2475966d1058afc42a2158bd75f5052461fc2fc552e15",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C104.vrp",
+      "bytes": 2704,
+      "sha256": "58930b926823417d6989a1872ab73dbd2df8238a211e8432f1c2638a795b4dd9",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C105.sol",
+      "bytes": 414,
+      "sha256": "ee07c932bc4200e0782e25fccdf8f3b7548ce07b841f66906d6dce8973be0f00",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C105.vrp",
+      "bytes": 2768,
+      "sha256": "7d90b35d578b2b2a5bcc8ceaaf59500ca33890a434cedba48c72d39d01d2c08e",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C106.sol",
+      "bytes": 414,
+      "sha256": "ee07c932bc4200e0782e25fccdf8f3b7548ce07b841f66906d6dce8973be0f00",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C106.vrp",
+      "bytes": 2766,
+      "sha256": "3fc3a5c6cc4428b757d24ec2c6754378f6c4e5f71bf3f79c1f9c577516b2893b",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C107.sol",
+      "bytes": 414,
+      "sha256": "ee07c932bc4200e0782e25fccdf8f3b7548ce07b841f66906d6dce8973be0f00",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C107.vrp",
+      "bytes": 2772,
+      "sha256": "e0f340de9642111dc82d87da33a67ccc6bf46bb943477048d16e214aac5a2747",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C108.sol",
+      "bytes": 414,
+      "sha256": "ee07c932bc4200e0782e25fccdf8f3b7548ce07b841f66906d6dce8973be0f00",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C108.vrp",
+      "bytes": 2766,
+      "sha256": "2d70e23de65a0f5c828e6764d3284c57da4cbe5f6b6c88e0818fe28c84277e7b",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C109.sol",
+      "bytes": 414,
+      "sha256": "ee07c932bc4200e0782e25fccdf8f3b7548ce07b841f66906d6dce8973be0f00",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C109.vrp",
+      "bytes": 2767,
+      "sha256": "e37de42e11885e4f8762b50196a8b66af4b00292753fac62e24703ff4d0ddbc1",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C201.sol",
+      "bytes": 336,
+      "sha256": "ca126c291b9fb9533afdbc60a2ebef8737664330050acc6067a2a65c5801c831",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C201.vrp",
+      "bytes": 2910,
+      "sha256": "28917ebe98acb231afd6a3a7bfef52bb2489b389fea7283ce9c0bbc687d3b9ae",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C202.sol",
+      "bytes": 336,
+      "sha256": "ca126c291b9fb9533afdbc60a2ebef8737664330050acc6067a2a65c5801c831",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C202.vrp",
+      "bytes": 2853,
+      "sha256": "33d659185e4fc771b917e392a1ef91fedb2215ee49ba77c1fc305a57ff270c69",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C203.sol",
+      "bytes": 336,
+      "sha256": "3355ee1f3322e1af644ccf041a84997d0433967cb59a1cff7aef7d517384ee64",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C203.vrp",
+      "bytes": 2794,
+      "sha256": "4ff646fa59e3a49569a34821da960aa545ca4f2fdf60222acadb64aebe380fce",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C204.sol",
+      "bytes": 336,
+      "sha256": "5c13aea7dd551b2562ffab6a5b3e2f4378200b41431469761539b27dc057339a",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C204.vrp",
+      "bytes": 2743,
+      "sha256": "785538759cac9514a304351c2ba8f3357debd2c2b6dd996e8807b2581756dd36",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C205.sol",
+      "bytes": 336,
+      "sha256": "e06f863603a33907bf225ab9b06699c0d96f0cb8ccdb32a5644d099ae212dba1",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C205.vrp",
+      "bytes": 2907,
+      "sha256": "cc40dfe19eeb4de7b6a1a5b17c06cf9465240d53a27f52c121fc4678a9d7bab1",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C206.sol",
+      "bytes": 336,
+      "sha256": "a4bcf54ebe43fe954752da2abc3eefc3efb36fc746e4e301ea2a08428b26af54",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C206.vrp",
+      "bytes": 2905,
+      "sha256": "b04eed190195b1cb023f22de8844b44945dbce328dbbe76a73cf48ac6041edda",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C207.sol",
+      "bytes": 336,
+      "sha256": "faec05ee690c31edcb55fb0058293148198388dabd50c931bd49668e54a98c2b",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C207.vrp",
+      "bytes": 2902,
+      "sha256": "8149c1ed877572a4f800be6cd5b2656ec58b19ffa82ebb9b98eae7df5c02e6c7",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C208.sol",
+      "bytes": 336,
+      "sha256": "f3c2bbd82bdf9003197414c0aa52b64b914b4285396a5d0c9789886dbae50859",
+      "origin": "downloaded"
+    },
+    {
+      "name": "C208.vrp",
+      "bytes": 2901,
+      "sha256": "f3b8177ab4985d820749a904e25fbae9f74f9f5aab002be7aecb40215d60081e",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R101.sol",
+      "bytes": 535,
+      "sha256": "1881cf3b7f8212302cd394c8f63f50767e0fae67d982cd918efcff02089c707c",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R101.vrp",
+      "bytes": 2636,
+      "sha256": "1f13c0eb622c258b6e8b743c0a9725ac958efb62496eb4f6d07c646ab670f2b6",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R102.sol",
+      "bytes": 511,
+      "sha256": "0de3e66b02cc044c324019ce5580d9ef0d89addfb26cfd21688ed8505a1b3459",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R102.vrp",
+      "bytes": 2615,
+      "sha256": "bffb122f84b9ee2ecf699c70d80d2a25f8f55f10fc9cd3b1729b6a3ccdbb4d76",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R103.sol",
+      "bytes": 463,
+      "sha256": "eb209f16d8be30f2f7f22fea746424a193d096aa9a7a37316c3d6675856a579d",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R103.vrp",
+      "bytes": 2592,
+      "sha256": "4a3f6d4f418cbddc35b2244c2b20220b63a6de3c54eb247e93fd4e55b48e49d0",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R104.sol",
+      "bytes": 426,
+      "sha256": "e9137e8b42f55a3078203f8006b832466364836a6f40ecb803320125714e5d0f",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R104.vrp",
+      "bytes": 2568,
+      "sha256": "be9340f9c311e1698aa1fbff8b4c7d7a5443ee23811f3a7dd60e252d3907a24a",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R105.sol",
+      "bytes": 475,
+      "sha256": "03844f2fc9cf715447d65d472b454ca55f3f1d9d0d4a45cb3f2b40a3a99f331f",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R105.vrp",
+      "bytes": 2639,
+      "sha256": "b62eda533083900c62fb255f202d626eec95d32855d565bef3d0653b1e33d7fb",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R106.sol",
+      "bytes": 451,
+      "sha256": "4d75889463ceb3e946d7152bc3e16ca1491c3b04e9a2a5f28058af7f738308fd",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R106.vrp",
+      "bytes": 2618,
+      "sha256": "9795422dcc8c424c42095ee711d8548f478817fb6b87afb8c2a90c91d977f635",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R107.sol",
+      "bytes": 427,
+      "sha256": "ab35502fb304ff17b138ed0bd635678404a1efa2bb7efce0eadf4701da76ce5e",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R107.vrp",
+      "bytes": 2594,
+      "sha256": "a766dfd56a7a2c6a2746d96f5d37fe17cc8077579863e2df632ab02d634fad1a",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R108.sol",
+      "bytes": 414,
+      "sha256": "afff762b506baac5e37c3f8e0effd7254190c4a9d89948f790a2ea47a536db1b",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R108.vrp",
+      "bytes": 2570,
+      "sha256": "db37163d20e0dd431429b87cab45707bfcc9ae773015e6f114bc911c81e69fa6",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R109.sol",
+      "bytes": 451,
+      "sha256": "2a9f0692dbaad66327cb889b1c6b8e0b401d32a0a1a7b5a6e50ff7688a2f04db",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R109.vrp",
+      "bytes": 2655,
+      "sha256": "0d23882c51f624f9f669cf84d892fbefe9685fbdda3cde901ebe1723cf686862",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R110.sol",
+      "bytes": 439,
+      "sha256": "431618397718c6c8fa4a093e84912942b4809731b3d7f74df842f3491aca36d4",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R110.vrp",
+      "bytes": 2650,
+      "sha256": "13e5c557c41b9da2766a8b5a1eb348a8d44dcceb7fc7fc3b99fb6a00448dedb2",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R111.sol",
+      "bytes": 439,
+      "sha256": "f2e9e30effda2b2208e0e8e8ee6716aa999f601aeabe2a486720265066136237",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R111.vrp",
+      "bytes": 2648,
+      "sha256": "9077ba8933647debcaabc217c75ae3fa5cae3ed356e811fa46ac58c34c8799e8",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R112.sol",
+      "bytes": 414,
+      "sha256": "3a4ef7113c6860c02cdaf75096b97da451cf06f6caf3a6d1d380cb55707ec85c",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R112.vrp",
+      "bytes": 2643,
+      "sha256": "fa72090239924ff60b9b4ff0d9bba579cb85410d1a1dce6963ba74c70c7a1b74",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R201.sol",
+      "bytes": 392,
+      "sha256": "5a8ac1b4bb99da979883f626d7fa3e49a97f19cbc04a0b06302c729a78cc6097",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R201.vrp",
+      "bytes": 2732,
+      "sha256": "bd8e53a5d1e0976d227db51fd61cee90319bfc57750bc132258e5ad174e29b24",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R202.sol",
+      "bytes": 392,
+      "sha256": "7d154bbe2575304a2e43fd13200654aec5ac4732707dd2f8e1274721a496c1f0",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R202.vrp",
+      "bytes": 2687,
+      "sha256": "04a3886fad8c72299e4a9600ff080eb9c5ef2a81adcc8b8eb785694d4331139f",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R203.sol",
+      "bytes": 369,
+      "sha256": "051679241e3735badb7d5cf5f300399f31a4f2d94cac2668a0fadd59592a7184",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R203.vrp",
+      "bytes": 2640,
+      "sha256": "8f19739043d52ee94ad898288c18f74a16967e5879f497fcd72147f5e2dfccf8",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R204.sol",
+      "bytes": 358,
+      "sha256": "842d5f73fc6fbafa7b6c2fb5f4c6d4a667236cbe6924e2dbec0e260e57b3ab05",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R204.vrp",
+      "bytes": 2596,
+      "sha256": "8d0bcf0928026c899ad0864a4b6c3ae3cd35a246bb1d13b094b9cc60a5aaf896",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R205.sol",
+      "bytes": 358,
+      "sha256": "d9b3a19ab8fa5c26c8c76178cf5e19a2ee92faa0146254431a2ea4f6e91e23fc",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R205.vrp",
+      "bytes": 2728,
+      "sha256": "06d8204da510ce38a5483a8a180b14f7e33dd1200909d928476e9c82b43cb03b",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R206.sol",
+      "bytes": 358,
+      "sha256": "06c81b9ab8060982b2c782dda15c1b843d89044765a11aac9d31a3a3fb635a24",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R206.vrp",
+      "bytes": 2685,
+      "sha256": "35c229bd970d3a9be3ea730347b3caf4a8dcbd47a6889e4ade8718764ff07efa",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R207.sol",
+      "bytes": 347,
+      "sha256": "c7c0fb1115b0b4dabff48d2e3651e1dd8e0ac97afe6417b284f3c3aa97fd5380",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R207.vrp",
+      "bytes": 2639,
+      "sha256": "f0eb3784dc66a93d4ebda757b3f8a76bc132aa9aa67afbc21d1f3a370ca2e6a1",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R208.sol",
+      "bytes": 347,
+      "sha256": "47ad8ce0e51c9900b7474bf0c1981a2ef69c19674cdc63c2d08ee9c8f29cd74a",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R208.vrp",
+      "bytes": 2596,
+      "sha256": "5e0a1f4e480dba992cbf74b57da2638f85558d4b2b97e4ab475960f48a19a119",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R209.sol",
+      "bytes": 358,
+      "sha256": "45e28ac35b0d501cf8aabcfab639debf0d21a4e5e029c838acc371171986e121",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R209.vrp",
+      "bytes": 2719,
+      "sha256": "e6d8a69da6d781761deadc8616384b57f1395750e4751788fd357333e8b4fe96",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R210.sol",
+      "bytes": 369,
+      "sha256": "6cfeae99678a514262216bd51c198d238589c037a34f164500ea6c5e89009a18",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R210.vrp",
+      "bytes": 2717,
+      "sha256": "6b1003475d19a82f55199df67db635e323a8ca8fa46b70c35ed4494a04273d89",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R211.sol",
+      "bytes": 347,
+      "sha256": "eac6d972a7949e351bd19571a397d2aa5726d3d5e4067ee8be13d667abab1ca9",
+      "origin": "downloaded"
+    },
+    {
+      "name": "R211.vrp",
+      "bytes": 2709,
+      "sha256": "6db497e553d70e36de907ddae796b3bab343d6de40e8249d23b2e3d4923d7757",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC101.sol",
+      "bytes": 475,
+      "sha256": "866e8ecce2f6dfd9835a2af30322464dda9ce13446397c5eae70b28e687e1f11",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC101.vrp",
+      "bytes": 2659,
+      "sha256": "aa85524e59f3f52106bf6de262afdff81dbeeb769dba299cb14ead03e9955626",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC102.sol",
+      "bytes": 463,
+      "sha256": "f50f7ae217583fc369846ce7e5b18640afcd08cee66654f0041ed839dc727d08",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC102.vrp",
+      "bytes": 2637,
+      "sha256": "725d0274aa5a93164f01723db613bb1c79d34951e59a92e1844d702973cd75aa",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC103.sol",
+      "bytes": 427,
+      "sha256": "816c30390a8d3447f1d37aea57ee184a70f751a8d99206e3172e70e116a60bb9",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC103.vrp",
+      "bytes": 2610,
+      "sha256": "6dee0aaec2bd62ac13077b4631a1066b4cffa5450db2cdebfe45d75c36d2f170",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC104.sol",
+      "bytes": 415,
+      "sha256": "93e88dfde16c3167acf53b53540a13b105c7354f52c7e0d8aceb781899ee2540",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC104.vrp",
+      "bytes": 2584,
+      "sha256": "5546636e841bb680aa2a7976d2e5f8b8efcec32dbe21e3feb7fe5e3b2f1f1454",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC105.sol",
+      "bytes": 475,
+      "sha256": "a866a875af4a3bf777e1e6c3b23317714ec956a8de657733a43856f2ce133fbc",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC105.vrp",
+      "bytes": 2669,
+      "sha256": "36cd5a2f0dc1851006322162851bd74feba8cd740a4f9d103d0fd0d67d6ff210",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC106.sol",
+      "bytes": 439,
+      "sha256": "c7e9eb5f9f3b17df9643f9484acf85991d1f3e03b8656dd79f67b2d4bf764b25",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC106.vrp",
+      "bytes": 2672,
+      "sha256": "a60248f07be7a5e412895f1a17db6c2897fbbf8ecad77c312241138bc32d8134",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC107.sol",
+      "bytes": 439,
+      "sha256": "3b54cf4df5ee7ff2500e05f641321680b522bcdd3a821bcb513bc900f314664a",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC107.vrp",
+      "bytes": 2669,
+      "sha256": "a360d3c676fad44548dbf1c273684303d72986c55286059dd8ad1f66e8400923",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC108.sol",
+      "bytes": 427,
+      "sha256": "3f77ebb94cfb8ee47c08b8479e9a104c69149b3f35b0478cd829540bb8e916b7",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC108.vrp",
+      "bytes": 2663,
+      "sha256": "55c08c7e9f340ea8b53e23e7d075943d817dd549221aab95012e63562fecf2e1",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC201.sol",
+      "bytes": 403,
+      "sha256": "f5cd9bf54f2b818e8096ccc352f257f538f388525cc75613a4e7ac23b51ac03b",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC201.vrp",
+      "bytes": 2747,
+      "sha256": "8252e74557b020bd97af4ba8ada1d98fbe76bc99e1006cf55ceebfda26e70fb9",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC202.sol",
+      "bytes": 392,
+      "sha256": "815bc32ae9b2344158f3c2c322f1e09ed1e504af3288620d41d37011fdb5318e",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC202.vrp",
+      "bytes": 2700,
+      "sha256": "0175826856991b3b8abbc3e53ca71f8d74516d38939857a92d0b0c12b387efc5",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC203.sol",
+      "bytes": 358,
+      "sha256": "7459addccd15eb43caaaff9870fb56f2cbfdc3c54cba5cf669cae988d9b2d625",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC203.vrp",
+      "bytes": 2652,
+      "sha256": "b3f83905e02a6ea18a51dc46ceff63bc46f78123d88239a4d2e3a8c5ca6cd6c6",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC204.sol",
+      "bytes": 347,
+      "sha256": "0b0257e917a414b0a53ba050cfb1f91046eea7753d60c51396e75a2c1698adea",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC204.vrp",
+      "bytes": 2608,
+      "sha256": "daedc5cf3dc4e9f8eb94b01b94abd947229dd953d0003e41d3f8ccf25db17a9b",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC205.sol",
+      "bytes": 381,
+      "sha256": "f9e8a45fa1076d88ff7c1cc1ec6a192b7f8d51cf5920143c63e8fb15aaa148a9",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC205.vrp",
+      "bytes": 2734,
+      "sha256": "e24742d7807b2233ca88faf318e69405de212de1c2963cda581f180b491ea772",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC206.sol",
+      "bytes": 381,
+      "sha256": "2400653dc19679b3eea50f8b3385501f42f9c2d45d1f65b9f518a7a18db34236",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC206.vrp",
+      "bytes": 2739,
+      "sha256": "dd1f9317fca288d0e10f9c9d57266686306bfb761db5e856b986b41a6e4d5fbc",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC207.sol",
+      "bytes": 369,
+      "sha256": "40edf2ab71fb1148ad0144ed39a709c8372e07f8981d03fdd66716e077329a5b",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC207.vrp",
+      "bytes": 2732,
+      "sha256": "0bc42fec7f1a0a04dd62776f342854cd1ccfadbf43b380cbe3941f3fa5ca5eff",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC208.sol",
+      "bytes": 347,
+      "sha256": "24012ab25ab2f5f15a16205af4e4a574979dd26da1a4330b30624536b50bc294",
+      "origin": "downloaded"
+    },
+    {
+      "name": "RC208.vrp",
+      "bytes": 2720,
+      "sha256": "ec70ed065a2bce0f00ead7b1dcff8afa38673ff0efcb14b91b0d17c000eea206",
+      "origin": "downloaded"
+    }
+  ]
+}

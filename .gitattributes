@@ -1,0 +1,19 @@
+# 在仓库中以及检出到本地时，统一把所有文件的换行符规范为 LF。
+#
+# 这并非为了美观。data/raw/solomon/PROVENANCE.json 为每个基准文件记录了
+# 一个 SHA-256；如果 Windows 检出时把这些文件改写为 CRLF，哈希值就会不再
+# 匹配，`fetch_solomon.py --verify` 也将失败。这些基准文件是按行组织的
+# 文本文件，因此必须能够逐字节地往返一致。
+* text=auto eol=lf
+
+*.vrp  text eol=lf
+*.sol  text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.csv  text eol=lf
+
+# 生成的图片：绝不触碰这些文件。
+*.png binary
+*.jpg binary
+*.pdf binary

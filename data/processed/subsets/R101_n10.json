@@ -1,0 +1,165 @@
+{
+  "name": "R101_n10",
+  "n_nodes": 11,
+  "n_customers": 10,
+  "capacity": 200,
+  "vehicle_limit": 25,
+  "edge_weight_type": "EUC_2D",
+  "horizon": 230.0,
+  "total_demand": 124,
+  "min_vehicles_by_capacity": 1,
+  "source_path": "data/raw/solomon/R101.vrp",
+  "nodes": [
+    {
+      "id": 0,
+      "x": 35.0,
+      "y": 35.0,
+      "demand": 0,
+      "ready": 0.0,
+      "due": 230.0,
+      "service": 0.0
+    },
+    {
+      "id": 1,
+      "x": 41.0,
+      "y": 49.0,
+      "demand": 10,
+      "ready": 161.0,
+      "due": 171.0,
+      "service": 10.0
+    },
+    {
+      "id": 2,
+      "x": 35.0,
+      "y": 17.0,
+      "demand": 7,
+      "ready": 50.0,
+      "due": 60.0,
+      "service": 10.0
+    },
+    {
+      "id": 3,
+      "x": 55.0,
+      "y": 45.0,
+      "demand": 13,
+      "ready": 116.0,
+      "due": 126.0,
+      "service": 10.0
+    },
+    {
+      "id": 4,
+      "x": 55.0,
+      "y": 20.0,
+      "demand": 19,
+      "ready": 149.0,
+      "due": 159.0,
+      "service": 10.0
+    },
+    {
+      "id": 5,
+      "x": 15.0,
+      "y": 30.0,
+      "demand": 26,
+      "ready": 34.0,
+      "due": 44.0,
+      "service": 10.0
+    },
+    {
+      "id": 6,
+      "x": 25.0,
+      "y": 30.0,
+      "demand": 3,
+      "ready": 99.0,
+      "due": 109.0,
+      "service": 10.0
+    },
+    {
+      "id": 7,
+      "x": 20.0,
+      "y": 50.0,
+      "demand": 5,
+      "ready": 81.0,
+      "due": 91.0,
+      "service": 10.0
+    },
+    {
+      "id": 8,
+      "x": 10.0,
+      "y": 43.0,
+      "demand": 9,
+      "ready": 95.0,
+      "due": 105.0,
+      "service": 10.0
+    },
+    {
+      "id": 9,
+      "x": 55.0,
+      "y": 60.0,
+      "demand": 16,
+      "ready": 97.0,
+      "due": 107.0,
+      "service": 10.0
+    },
+    {
+      "id": 10,
+      "x": 30.0,
+      "y": 60.0,
+      "demand": 16,
+      "ready": 124.0,
+      "due": 134.0,
+      "service": 10.0
+    }
+  ],
+  "reference_solution": {
+    "name": "R101_n10_restricted",
+    "n_vehicles": 8,
+    "n_customers": 10,
+    "cost": 382.5027262117314,
+    "routes": [
+      [
+        2,
+        4
+      ],
+      [
+        5
+      ],
+      [
+        3
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        6
+      ],
+      [
+        10
+      ],
+      [
+        9,
+        1
+      ]
+    ]
+  },
+  "provenance": {
+    "derived_from": "R101",
+    "selection_policy": "first_n_customer_ids",
+    "selected_customers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reference_is_upper_bound": true,
+    "note": "\u53c2\u8003\u8def\u5f84\u7531\u516c\u5e03\u7684\u5168\u5b9e\u4f8b\u89e3\u7ee7\u627f\u800c\u6765\uff0c\u505a\u6cd5\u662f\u5220\u9664\u5b50\u96c6\u4e4b\u5916\u7684\u5ba2\u6237\u3002\u5bf9\u4e00\u6761\u53ef\u884c\u8def\u5f84\u52a0\u4ee5\u9650\u5236\u540e\u5b83\u4ecd\u7136\u53ef\u884c\uff0c\u56e0\u6b64\u8be5\u53c2\u8003\u89e3\u662f\u5b50\u7b97\u4f8b\u7684\u4e00\u4e2a\u6709\u6548\u3001\u4f46\u901a\u5e38\u5e76\u975e\u6700\u4f18\u7684\u89e3\u3002"
+  }
+}

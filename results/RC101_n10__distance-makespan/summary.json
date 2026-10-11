@@ -1,0 +1,74 @@
+{
+  "instance": "RC101_n10",
+  "objectives": [
+    "distance",
+    "makespan"
+  ],
+  "n_customers": 10,
+  "capacity": 200,
+  "depot_horizon": 240.0,
+  "total_demand": 220,
+  "min_vehicles_by_capacity": 2,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "population_size": 100,
+  "generations": 200,
+  "evaluations_per_run": 24740,
+  "hypervolume_reference": [
+    715.961766497989,
+    241.0
+  ],
+  "hypervolume_median": 24558.2472848002,
+  "hypervolume_min": 24558.2472848002,
+  "hypervolume_max": 24558.2472848002,
+  "front_size_union": 3,
+  "front_size_median": 3.0,
+  "pareto_front": [
+    [
+      185.90787650875717,
+      214.93823664307783
+    ],
+    [
+      191.23298176125223,
+      208.12658056650537
+    ],
+    [
+      239.48834813099703,
+      193.07886552931956
+    ]
+  ],
+  "inherited_reference": {
+    "routes": [
+      [
+        5,
+        2,
+        7,
+        6,
+        8,
+        3,
+        1
+      ],
+      [
+        4
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    "vehicles": 3,
+    "cost": 258.2962922333462,
+    "note": "\u5728\u5b50\u7b97\u4f8b\u4e0a\u6709\u6548\u3001\u4f46\u901a\u5e38\u975e\u6700\u4f18\u7684\u4e0a\u754c"
+  },
+  "wall_clock_seconds": 126.91
+}

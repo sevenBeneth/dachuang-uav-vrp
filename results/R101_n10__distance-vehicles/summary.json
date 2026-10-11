@@ -1,0 +1,76 @@
+{
+  "instance": "R101_n10",
+  "objectives": [
+    "distance",
+    "vehicles"
+  ],
+  "n_customers": 10,
+  "capacity": 200,
+  "depot_horizon": 230.0,
+  "total_demand": 124,
+  "min_vehicles_by_capacity": 1,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "population_size": 100,
+  "generations": 200,
+  "evaluations_per_run": 26191,
+  "hypervolume_reference": [
+    435.7216513797019,
+    10.0
+  ],
+  "hypervolume_median": 997.1310628736218,
+  "hypervolume_min": 997.1310628736218,
+  "hypervolume_max": 997.1310628736218,
+  "front_size_union": 1,
+  "front_size_median": 1.0,
+  "pareto_front": [
+    [
+      269.5331409007649,
+      4.0
+    ]
+  ],
+  "inherited_reference": {
+    "routes": [
+      [
+        2,
+        4
+      ],
+      [
+        5
+      ],
+      [
+        3
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        6
+      ],
+      [
+        10
+      ],
+      [
+        9,
+        1
+      ]
+    ],
+    "vehicles": 8,
+    "cost": 382.5027262117314,
+    "note": "\u5728\u5b50\u7b97\u4f8b\u4e0a\u6709\u6548\u3001\u4f46\u901a\u5e38\u975e\u6700\u4f18\u7684\u4e0a\u754c"
+  },
+  "wall_clock_seconds": 148.17
+}

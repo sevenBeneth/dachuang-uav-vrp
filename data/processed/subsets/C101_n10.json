@@ -1,0 +1,151 @@
+{
+  "name": "C101_n10",
+  "n_nodes": 11,
+  "n_customers": 10,
+  "capacity": 200,
+  "vehicle_limit": 25,
+  "edge_weight_type": "EUC_2D",
+  "horizon": 1236.0,
+  "total_demand": 150,
+  "min_vehicles_by_capacity": 1,
+  "source_path": "data/raw/solomon/C101.vrp",
+  "nodes": [
+    {
+      "id": 0,
+      "x": 40.0,
+      "y": 50.0,
+      "demand": 0,
+      "ready": 0.0,
+      "due": 1236.0,
+      "service": 0.0
+    },
+    {
+      "id": 1,
+      "x": 45.0,
+      "y": 68.0,
+      "demand": 10,
+      "ready": 912.0,
+      "due": 967.0,
+      "service": 90.0
+    },
+    {
+      "id": 2,
+      "x": 45.0,
+      "y": 70.0,
+      "demand": 30,
+      "ready": 825.0,
+      "due": 870.0,
+      "service": 90.0
+    },
+    {
+      "id": 3,
+      "x": 42.0,
+      "y": 66.0,
+      "demand": 10,
+      "ready": 65.0,
+      "due": 146.0,
+      "service": 90.0
+    },
+    {
+      "id": 4,
+      "x": 42.0,
+      "y": 68.0,
+      "demand": 10,
+      "ready": 727.0,
+      "due": 782.0,
+      "service": 90.0
+    },
+    {
+      "id": 5,
+      "x": 42.0,
+      "y": 65.0,
+      "demand": 10,
+      "ready": 15.0,
+      "due": 67.0,
+      "service": 90.0
+    },
+    {
+      "id": 6,
+      "x": 40.0,
+      "y": 69.0,
+      "demand": 20,
+      "ready": 621.0,
+      "due": 702.0,
+      "service": 90.0
+    },
+    {
+      "id": 7,
+      "x": 40.0,
+      "y": 66.0,
+      "demand": 20,
+      "ready": 170.0,
+      "due": 225.0,
+      "service": 90.0
+    },
+    {
+      "id": 8,
+      "x": 38.0,
+      "y": 68.0,
+      "demand": 20,
+      "ready": 255.0,
+      "due": 324.0,
+      "service": 90.0
+    },
+    {
+      "id": 9,
+      "x": 38.0,
+      "y": 70.0,
+      "demand": 10,
+      "ready": 534.0,
+      "due": 605.0,
+      "service": 90.0
+    },
+    {
+      "id": 10,
+      "x": 35.0,
+      "y": 66.0,
+      "demand": 10,
+      "ready": 357.0,
+      "due": 410.0,
+      "service": 90.0
+    }
+  ],
+  "reference_solution": {
+    "name": "C101_n10_restricted",
+    "n_vehicles": 1,
+    "n_customers": 10,
+    "cost": 58.32595327336471,
+    "routes": [
+      [
+        5,
+        3,
+        7,
+        8,
+        10,
+        9,
+        6,
+        4,
+        2,
+        1
+      ]
+    ]
+  },
+  "provenance": {
+    "derived_from": "C101",
+    "selection_policy": "first_n_customer_ids",
+    "selected_customers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "reference_is_upper_bound": true,
+    "note": "\u53c2\u8003\u8def\u5f84\u7531\u516c\u5e03\u7684\u5168\u5b9e\u4f8b\u89e3\u7ee7\u627f\u800c\u6765\uff0c\u505a\u6cd5\u662f\u5220\u9664\u5b50\u96c6\u4e4b\u5916\u7684\u5ba2\u6237\u3002\u5bf9\u4e00\u6761\u53ef\u884c\u8def\u5f84\u52a0\u4ee5\u9650\u5236\u540e\u5b83\u4ecd\u7136\u53ef\u884c\uff0c\u56e0\u6b64\u8be5\u53c2\u8003\u89e3\u662f\u5b50\u7b97\u4f8b\u7684\u4e00\u4e2a\u6709\u6548\u3001\u4f46\u901a\u5e38\u5e76\u975e\u6700\u4f18\u7684\u89e3\u3002"
+  }
+}
