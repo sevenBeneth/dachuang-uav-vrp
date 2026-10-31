@@ -1,43 +1,7 @@
-"""NSGA-II 所求解的 VRPTW 问题，含编码方式与解码器。
+"""VRPTW 排列编码与最短距离 split 解码器。
 
-编码
---------------------------------------------------------------------------
-一个个体是 ``(perm, k)``：
-
-* ``perm`` -- 所有客户 id 的一个排列，即巨型路径（giant tour）；
-* ``k`` -- 请求使用的车辆数。
-
-解码器
---------------------------------------------------------------------------
-``perm`` 由一个动态规划恰好切成 ``k`` 段连续路径，该动态规划在满足车辆容量和
-时间窗的前提下最小化总行驶距离（即 Prins, 2004 的经典 "split" 过程）。因此每个
-解码后的解在构造上就是可行的：没有修复步骤，没有惩罚项，也不可能有个体不可行
-却进入 Pareto 前沿。
-
-如果某个 ``perm`` 取不到 ``k``（可行的路径数太少或太多），解码器会把它修复为
-**最接近的可行取值**，并记录实际使用的值。基因型会被就地更新，因此基因型与
-表型始终保持一致。
-
-目标
---------------------------------------------------------------------------
-所有目标均为最小化：
-
-``distance``  所有路径的总行驶距离
-``vehicles``  使用的路径条数（经典的车辆数 / 距离权衡）
-``makespan``  最长单条路径的持续时间（行驶 + 服务 + 等待）
-``waiting``   等待时间窗开启所花的总时间
-
-其中任意两个都可以被选中，因此同一套机制既能产生经典的（车辆数 vs. 距离）
-前沿，也能产生（距离 vs. 完工时间）前沿。
-
-范围说明
---------------------------------------------------------------------------
-这是论文对比所用的 *标准* 基线。它只建模单一车型，不含跨江限制，也不含无人机
-续航限制。项目自身的贡献 -- 每架无人机的载重/续航限制，以及禁止直线飞越江面的
-跨江飞行约束 -- 属于改进后的算法，此处刻意不包含，以便第二阶段的改进有一个
-干净的参照点。``VRPTWProblem`` 对每个解都暴露 ``routes`` 和 ``metrics``，
-这类约束正是在那里施加的。
-"""
+基线使用精确欧氏距离、硬时间窗和同型车辆。请求车辆数不可行时，修正为
+最近的可行值。跨江无人机模型见 drone.py。"""
 
 from __future__ import annotations
 
@@ -133,6 +97,8 @@ class VRPTWProblem:
         仍会继续延伸。
         """
         n = len(perm)
+        if len(perm) != self.n_customers or set(perm) != set(self.customers):
+            raise ValueError("perm 必须恰好包含每个客户一次")
         inf = float("inf")
         table = [[inf] * (n + 1) for _ in range(n + 1)]
         inst = self.instance
@@ -256,6 +222,8 @@ class VRPTWProblem:
     ) -> list[int]:
         """排列的顺序交叉（OX）：保留 p1 的一段，其余从 p2 填充。"""
         n = len(p1)
+        if n < 2:
+            return list(p1)
         a, b = sorted(int(v) for v in rng.choice(n, size=2, replace=False))
         child: list[int | None] = [None] * n
         child[a:b] = p1[a:b]
@@ -306,6 +274,8 @@ class VRPTWProblem:
         """已解码解的完整指标记录，用于 CSV 输出。"""
         if not individual.decoded:
             self.evaluate(individual)
+        if not individual.decoded:
+            raise ValueError("无法描述不可行解")
         return {
             "routes": ["-".join(str(c) for c in route) for route in individual.routes],
             **{name: individual.metrics.get(name) for name in OBJECTIVE_NAMES},

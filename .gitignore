@@ -14,6 +14,7 @@ env/
 .mypy_cache/
 .ruff_cache/
 .ipynb_checkpoints/
+.idea/
 
 # 操作系统
 Thumbs.db
@@ -28,3 +29,6 @@ Desktop.ini
 # 临时 / 探测输出
 _probe/
 *.tmp
+
+# SQLite 为逐次 JSON 结果的本地归档，可由实验入口重建。
+results/**/study.sqlite3

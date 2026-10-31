@@ -1,44 +1,7 @@
-#!/usr/bin/env python3
-"""10 客户 Solomon 子算例上的标准 NSGA-II 基线。
+"""运行原始 10 客户 VRPTW 双目标对照，输出逐种子结果与非支配并集。
 
-这是第一阶段的交付内容：一个朴素、教科书式的 NSGA-II（见
-``src/uavvrp/nsga2.py``），用于求解 ``src/uavvrp/problem.py`` 中按 split 解码的
-VRPTW，不含 ALNS 增强，也不含跨江或 UAV 约束，在小规模算例上运行，并以 Pareto
-前沿的形式报告结果。
-
-    # 默认：三个 10 客户算例，distance vs. make-span
-    python experiments/run_baseline_n10.py
-
-    # 经典的机队规模目标组合，用于对比
-    python experiments/run_baseline_n10.py --objectives distance vehicles
-
-    # 单个算例，更多代数，并逐代输出进度
-    python experiments/run_baseline_n10.py --instances RC101_n10 --gen 400 --verbose
-
-目标函数的选择
---------------
-默认使用 ``distance`` vs ``makespan``，因为这两个目标确实存在冲突：用一趟紧凑的
-巡回服务客户可以把行驶距离压到最小，却会产生一条很长的路径；而把工作拆分到多条
-路径上可以平衡各条路径，代价是额外的回仓行程，从而缩短最长的那条路径。
-
-在本解码器下 ``distance`` vs ``vehicles`` **并不**冲突，程序会把这一点明确提示
-出来，而不是悄悄返回单点结果。解码器会针对请求的机队规模最小化距离，而向一个可行
-方案中增加一辆车永远不会缩短该距离，因此总距离关于车辆数单调不减：车辆数更少在
-*两个*目标上都更优，任何更大的机队规模都被支配。在本批子算例上实测，各机队规模
-下找到的最小距离为
-
-    C101_n10   k=2:  100.43   k=3:  121.47   k=4:  152.02   k=5:  182.27  ...
-    RC101_n10  k=3:  261.04   k=4:  309.05   k=5:  365.84   k=6:  431.36  ...
-    R101_n10   k=4:  289.47   k=5:  281.90   k=6:  314.46   k=7:  334.92  ...
-
-只有 R101_n10 在 k=4 与 k=5 之间表现出真正的权衡。这是建模方式本身的性质，而非
-搜索失败：要得到有意义的机队规模前沿，需要一种能在距离与车辆数之间做权衡的解码器
-（加权和 split，或在 split 目标中加入每辆车的固定成本），这属于后续工作。
-
-每个算例在每种随机种子下求解一次。所报告的前沿是全部种子最终种群的、去重后的
-非支配并集 —— 这是报告进化多目标结果的标准做法，因为单次运行只是随机过程的一个
-样本。每种随机种子的 hypervolume、前沿规模与最优目标值都会写入 ``runs.csv``，
-以便运行之间的离散程度始终保持可见。
+无人机三目标实验见 run_study.py。距离与车辆数是否冲突取决于约束和实例，
+不能由三角不等式推导其全局最优值关于车辆数单调。
 """
 
 from __future__ import annotations
@@ -81,7 +44,10 @@ def display_path(path: Path) -> str:
 
 def merge_fronts(fronts: Sequence[np.ndarray]) -> np.ndarray:
     """多个前沿的非支配并集，按第一个目标排序。"""
-    pooled = np.vstack([np.asarray(f, dtype=float) for f in fronts if len(f)])
+    blocks = [np.asarray(f, dtype=float) for f in fronts if len(f)]
+    if not blocks:
+        return np.empty((0, 2))
+    pooled = np.vstack(blocks)
     if pooled.size == 0:
         return pooled.reshape(0, 0)
     fronts_idx, _ = fast_non_dominated_sort(pooled)
@@ -142,7 +108,7 @@ def solve_instance(
             n_gen=n_gen,
             seed=seed,
             hypervolume_reference=problem.nadir,
-            verbose=False,
+            verbose=verbose,
         )
         result = algorithm.run()
         front = result.pareto_front
@@ -290,13 +256,9 @@ def write_outputs(result: InstanceResult, out_root: Path) -> dict[str, Path]:
     reference_label = "继承的参考解（上界）"
     if result.reference and result.front.size:
         routes = result.reference.get("routes", [])
-        reference_point = (
-            result.reference["cost"],
-            float(len(routes)),
-        )
-        # 仅当第二个目标是机队规模时才有意义。
-        if result.objectives[1] != "vehicles":
-            reference_point = None
+        if set(result.objectives) == {"distance", "vehicles"}:
+            reference_metrics = dict(distance=result.reference["cost"], vehicles=float(len(routes)))
+            reference_point = tuple(reference_metrics[name] for name in result.objectives)
 
     front_png = plot_pareto_front(
         result.front,
@@ -373,6 +335,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--seed0", type=int, default=1, help="起始随机种子（默认 1）")
     parser.add_argument("--verbose", action="store_true", help="逐代输出进度")
     args = parser.parse_args(argv)
+
+    if args.pop < 2 or args.gen < 0 or args.seeds < 1:
+        parser.error("种群至少为 2，代数须非负，种子数至少为 1")
 
     for objective in args.objectives:
         if objective not in OBJECTIVE_NAMES:

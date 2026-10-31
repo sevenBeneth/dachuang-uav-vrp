@@ -1,0 +1,37 @@
+{
+  "river_y": 37.5,
+  "river_width": 0.8,
+  "bridge_x": [
+    26.0,
+    47.0
+  ],
+  "capacity": 200,
+  "max_distance": 250,
+  "n_drones": 24,
+  "speed": 1,
+  "max_duration": 1500,
+  "early_weight": 1,
+  "late_weight": 2,
+  "urgent_weight": 5,
+  "urgent": [
+    1,
+    6,
+    11,
+    16,
+    21
+  ],
+  "risk_amplitude": 0.5,
+  "risk_period": 240,
+  "risk_decay": 15,
+  "obstacles": [
+    [
+      17.0,
+      5.0
+    ],
+    [
+      65.0,
+      65.0
+    ]
+  ],
+  "risk_samples": 5
+}

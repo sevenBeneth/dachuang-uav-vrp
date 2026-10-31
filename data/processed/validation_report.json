@@ -124,15 +124,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 827.3000\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 828.9369",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 827.3,
       "ref_cost_recomputed": 828.9369,
@@ -260,15 +266,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 827.3000\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 828.9369",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 827.3,
       "ref_cost_recomputed": 828.9369,
@@ -396,15 +408,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.0649\uff0c\u58f0\u660e 826.3000\uff08\u504f\u5dee +1.7649\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 826.3000\uff0c\u58f0\u660e 826.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 828.0649",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 826.3,
       "ref_cost_recomputed": 828.0649,
@@ -532,15 +550,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 824.7767\uff0c\u58f0\u660e 822.9000\uff08\u504f\u5dee +1.8767\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 822.9000\uff0c\u58f0\u660e 822.9000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 824.7767",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 822.9,
       "ref_cost_recomputed": 824.7767,
@@ -668,15 +692,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 827.3000\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 828.9369",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 827.3,
       "ref_cost_recomputed": 828.9369,
@@ -804,15 +834,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 827.3000\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 828.9369",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 827.3,
       "ref_cost_recomputed": 828.9369,
@@ -940,15 +976,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 827.3000\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 828.9369",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 827.3,
       "ref_cost_recomputed": 828.9369,
@@ -1076,15 +1118,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 827.3000\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 828.9369",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 827.3,
       "ref_cost_recomputed": 828.9369,
@@ -1212,15 +1260,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 827.3000\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 828.9369",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 827.3,
       "ref_cost_recomputed": 828.9369,
@@ -1348,15 +1402,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 591.5566\uff0c\u58f0\u660e 589.1000\uff08\u504f\u5dee +2.4566\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 589.1000\uff0c\u58f0\u660e 589.1000\uff08\u504f\u5dee -0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 591.5566",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 3,
       "ref_cost_published": 589.1,
       "ref_cost_recomputed": 591.5566,
@@ -1484,15 +1544,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 591.5566\uff0c\u58f0\u660e 589.1000\uff08\u504f\u5dee +2.4566\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 589.1000\uff0c\u58f0\u660e 589.1000\uff08\u504f\u5dee -0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 591.5566",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 3,
       "ref_cost_published": 589.1,
       "ref_cost_recomputed": 591.5566,
@@ -1620,15 +1686,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 591.1734\uff0c\u58f0\u660e 588.7000\uff08\u504f\u5dee +2.4734\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 588.7000\uff0c\u58f0\u660e 588.7000\uff08\u504f\u5dee -0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 591.1734",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 3,
       "ref_cost_published": 588.7,
       "ref_cost_recomputed": 591.1734,
@@ -1756,15 +1828,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 590.5987\uff0c\u58f0\u660e 588.1000\uff08\u504f\u5dee +2.4987\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 588.1000\uff0c\u58f0\u660e 588.1000\uff08\u504f\u5dee -0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 590.5987",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 3,
       "ref_cost_published": 588.1,
       "ref_cost_recomputed": 590.5987,
@@ -1892,15 +1970,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 588.8760\uff0c\u58f0\u660e 586.4000\uff08\u504f\u5dee +2.4760\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 586.4000\uff0c\u58f0\u660e 586.4000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 588.8760",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 3,
       "ref_cost_published": 586.4,
       "ref_cost_recomputed": 588.876,
@@ -2028,15 +2112,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 588.4928\uff0c\u58f0\u660e 586.0000\uff08\u504f\u5dee +2.4928\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 586.0000\uff0c\u58f0\u660e 586.0000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 588.4928",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 3,
       "ref_cost_published": 586.0,
       "ref_cost_recomputed": 588.4928,
@@ -2164,15 +2254,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 588.2863\uff0c\u58f0\u660e 585.8000\uff08\u504f\u5dee +2.4863\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 585.8000\uff0c\u58f0\u660e 585.8000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 588.2863",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 3,
       "ref_cost_published": 585.8,
       "ref_cost_recomputed": 588.2863,
@@ -2300,15 +2396,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 588.3238\uff0c\u58f0\u660e 585.8000\uff08\u504f\u5dee +2.5238\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 585.8000\uff0c\u58f0\u660e 585.8000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 588.3238",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 3,
       "ref_cost_published": 585.8,
       "ref_cost_recomputed": 588.3238,
@@ -2436,15 +2538,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1642.8769\uff0c\u58f0\u660e 1637.7000\uff08\u504f\u5dee +5.1769\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1637.7000\uff0c\u58f0\u660e 1637.7000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1642.8769",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 20,
       "ref_cost_published": 1637.7,
       "ref_cost_recomputed": 1642.8769,
@@ -2572,15 +2680,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1471.7457\uff0c\u58f0\u660e 1466.6000\uff08\u504f\u5dee +5.1457\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1466.6000\uff0c\u58f0\u660e 1466.6000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1471.7457",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 18,
-      "checks_total": 20,
+      "checks_passed": 20,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 2,
+      "advisories": 1,
       "ref_vehicles": 18,
       "ref_cost_published": 1466.6,
       "ref_cost_recomputed": 1471.7457,
@@ -2708,15 +2822,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1213.6239\uff0c\u58f0\u660e 1208.7000\uff08\u504f\u5dee +4.9239\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1208.7000\uff0c\u58f0\u660e 1208.7000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1213.6239",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 14,
       "ref_cost_published": 1208.7,
       "ref_cost_recomputed": 1213.6239,
@@ -2844,15 +2964,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 976.6932\uff0c\u58f0\u660e 971.5000\uff08\u504f\u5dee +5.1932\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 971.5000\uff0c\u58f0\u660e 971.5000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 976.6932",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 11,
       "ref_cost_published": 971.5,
       "ref_cost_recomputed": 976.6932,
@@ -2980,15 +3106,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1360.1203\uff0c\u58f0\u660e 1355.3000\uff08\u504f\u5dee +4.8203\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1355.3000\uff0c\u58f0\u660e 1355.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1360.1203",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 18,
-      "checks_total": 20,
+      "checks_passed": 20,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 2,
+      "advisories": 1,
       "ref_vehicles": 15,
       "ref_cost_published": 1355.3,
       "ref_cost_recomputed": 1360.1203,
@@ -3116,15 +3248,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1239.3719\uff0c\u58f0\u660e 1234.6000\uff08\u504f\u5dee +4.7719\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1234.6000\uff0c\u58f0\u660e 1234.6000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1239.3719",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 13,
       "ref_cost_published": 1234.6,
       "ref_cost_recomputed": 1239.3719,
@@ -3252,15 +3390,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1069.0947\uff0c\u58f0\u660e 1064.6000\uff08\u504f\u5dee +4.4947\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1064.6000\uff0c\u58f0\u660e 1064.6000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1069.0947",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 18,
-      "checks_total": 20,
+      "checks_passed": 20,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 2,
+      "advisories": 1,
       "ref_vehicles": 11,
       "ref_cost_published": 1064.6,
       "ref_cost_recomputed": 1069.0947,
@@ -3388,15 +3532,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 936.6891\uff0c\u58f0\u660e 932.1000\uff08\u504f\u5dee +4.5891\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 932.1000\uff0c\u58f0\u660e 932.1000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 936.6891",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 18,
-      "checks_total": 20,
+      "checks_passed": 20,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 2,
+      "advisories": 1,
       "ref_vehicles": 10,
       "ref_cost_published": 932.1,
       "ref_cost_recomputed": 936.6891,
@@ -3524,15 +3674,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1151.9117\uff0c\u58f0\u660e 1146.9000\uff08\u504f\u5dee +5.0117\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1146.9000\uff0c\u58f0\u660e 1146.9000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1151.9117",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 13,
       "ref_cost_published": 1146.9,
       "ref_cost_recomputed": 1151.9117,
@@ -3660,15 +3816,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1072.4772\uff0c\u58f0\u660e 1068.0000\uff08\u504f\u5dee +4.4772\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1068.0000\uff0c\u58f0\u660e 1068.0000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1072.4772",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 12,
       "ref_cost_published": 1068.0,
       "ref_cost_recomputed": 1072.4772,
@@ -3796,15 +3958,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1053.4958\uff0c\u58f0\u660e 1048.7000\uff08\u504f\u5dee +4.7958\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1048.7000\uff0c\u58f0\u660e 1048.7000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1053.4958",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 12,
       "ref_cost_published": 1048.7,
       "ref_cost_recomputed": 1053.4958,
@@ -3932,15 +4100,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 953.4392\uff0c\u58f0\u660e 948.6000\uff08\u504f\u5dee +4.8392\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 948.6000\uff0c\u58f0\u660e 948.6000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 953.4392",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 18,
-      "checks_total": 20,
+      "checks_passed": 20,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 2,
+      "advisories": 1,
       "ref_vehicles": 10,
       "ref_cost_published": 948.6,
       "ref_cost_recomputed": 953.4392,
@@ -4068,15 +4242,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1147.8203\uff0c\u58f0\u660e 1143.2000\uff08\u504f\u5dee +4.6203\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1143.2000\uff0c\u58f0\u660e 1143.2000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1147.8203",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 8,
       "ref_cost_published": 1143.2,
       "ref_cost_recomputed": 1147.8203,
@@ -4204,15 +4384,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1034.3472\uff0c\u58f0\u660e 1029.6000\uff08\u504f\u5dee +4.7472\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1029.6000\uff0c\u58f0\u660e 1029.6000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1034.3472",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 8,
       "ref_cost_published": 1029.6,
       "ref_cost_recomputed": 1034.3472,
@@ -4340,15 +4526,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 874.8689\uff0c\u58f0\u660e 870.8000\uff08\u504f\u5dee +4.0689\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 870.8000\uff0c\u58f0\u660e 870.8000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 874.8689",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 6,
       "ref_cost_published": 870.8,
       "ref_cost_recomputed": 874.8689,
@@ -4476,15 +4668,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 735.8613\uff0c\u58f0\u660e 731.3000\uff08\u504f\u5dee +4.5613\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 731.3000\uff0c\u58f0\u660e 731.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 735.8613",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 5,
       "ref_cost_published": 731.3,
       "ref_cost_recomputed": 735.8613,
@@ -4612,15 +4810,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 954.1617\uff0c\u58f0\u660e 949.8000\uff08\u504f\u5dee +4.3617\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 949.8000\uff0c\u58f0\u660e 949.8000\uff08\u504f\u5dee -0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 954.1617",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 5,
       "ref_cost_published": 949.8,
       "ref_cost_recomputed": 954.1617,
@@ -4748,15 +4952,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 879.8934\uff0c\u58f0\u660e 875.9000\uff08\u504f\u5dee +3.9934\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 875.9000\uff0c\u58f0\u660e 875.9000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 879.8934",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 5,
       "ref_cost_published": 875.9,
       "ref_cost_recomputed": 879.8934,
@@ -4884,15 +5094,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 798.0835\uff0c\u58f0\u660e 794.0000\uff08\u504f\u5dee +4.0835\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 794.0000\uff0c\u58f0\u660e 794.0000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 798.0835",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 4,
       "ref_cost_published": 794.0,
       "ref_cost_recomputed": 798.0835,
@@ -5020,15 +5236,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 705.3312\uff0c\u58f0\u660e 701.0000\uff08\u504f\u5dee +4.3312\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 701.0000\uff0c\u58f0\u660e 701.0000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 705.3312",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 4,
       "ref_cost_published": 701.0,
       "ref_cost_recomputed": 705.3312,
@@ -5156,15 +5378,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 859.3904\uff0c\u58f0\u660e 854.8000\uff08\u504f\u5dee +4.5904\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 854.8000\uff0c\u58f0\u660e 854.8000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 859.3904",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 5,
       "ref_cost_published": 854.8,
       "ref_cost_recomputed": 859.3904,
@@ -5292,15 +5520,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 904.8073\uff0c\u58f0\u660e 900.5000\uff08\u504f\u5dee +4.3073\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 900.5000\uff0c\u58f0\u660e 900.5000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 904.8073",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 6,
       "ref_cost_published": 900.5,
       "ref_cost_recomputed": 904.8073,
@@ -5428,15 +5662,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 751.2933\uff0c\u58f0\u660e 746.7000\uff08\u504f\u5dee +4.5933\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 746.7000\uff0c\u58f0\u660e 746.7000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 751.2933",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 18,
-      "checks_total": 20,
+      "checks_passed": 20,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 2,
+      "advisories": 1,
       "ref_vehicles": 4,
       "ref_cost_published": 746.7,
       "ref_cost_recomputed": 751.2933,
@@ -5564,15 +5804,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1623.5571\uff0c\u58f0\u660e 1619.8000\uff08\u504f\u5dee +3.7571\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1619.8000\uff0c\u58f0\u660e 1619.8000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1623.5571",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 18,
-      "checks_total": 20,
+      "checks_passed": 20,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 2,
+      "advisories": 1,
       "ref_vehicles": 15,
       "ref_cost_published": 1619.8,
       "ref_cost_recomputed": 1623.5571,
@@ -5700,15 +5946,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1461.3341\uff0c\u58f0\u660e 1457.4000\uff08\u504f\u5dee +3.9341\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1457.4000\uff0c\u58f0\u660e 1457.4000\uff08\u504f\u5dee -0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1461.3341",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 14,
       "ref_cost_published": 1457.4,
       "ref_cost_recomputed": 1461.3341,
@@ -5836,15 +6088,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1261.6719\uff0c\u58f0\u660e 1258.0000\uff08\u504f\u5dee +3.6719\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1258.0000\uff0c\u58f0\u660e 1258.0000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1261.6719",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 11,
       "ref_cost_published": 1258.0,
       "ref_cost_recomputed": 1261.6719,
@@ -5972,15 +6230,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1135.4794\uff0c\u58f0\u660e 1132.3000\uff08\u504f\u5dee +3.1794\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1132.3000\uff0c\u58f0\u660e 1132.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1135.4794",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 10,
       "ref_cost_published": 1132.3,
       "ref_cost_recomputed": 1135.4794,
@@ -6108,15 +6372,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1517.9298\uff0c\u58f0\u660e 1513.7000\uff08\u504f\u5dee +4.2298\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1513.7000\uff0c\u58f0\u660e 1513.7000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1517.9298",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 18,
-      "checks_total": 20,
+      "checks_passed": 20,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 2,
+      "advisories": 1,
       "ref_vehicles": 15,
       "ref_cost_published": 1513.7,
       "ref_cost_recomputed": 1517.9298,
@@ -6244,15 +6514,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1376.2560\uff0c\u58f0\u660e 1372.7000\uff08\u504f\u5dee +3.5560\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1372.7000\uff0c\u58f0\u660e 1372.7000\uff08\u504f\u5dee -0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1376.2560",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 12,
       "ref_cost_published": 1372.7,
       "ref_cost_recomputed": 1376.256,
@@ -6380,15 +6656,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1211.1258\uff0c\u58f0\u660e 1207.8000\uff08\u504f\u5dee +3.3258\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1207.8000\uff0c\u58f0\u660e 1207.8000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1211.1258",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 12,
       "ref_cost_published": 1207.8,
       "ref_cost_recomputed": 1211.1258,
@@ -6516,15 +6798,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1117.5265\uff0c\u58f0\u660e 1114.2000\uff08\u504f\u5dee +3.3265\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1114.2000\uff0c\u58f0\u660e 1114.2000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1117.5265",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 11,
       "ref_cost_published": 1114.2,
       "ref_cost_recomputed": 1117.5265,
@@ -6652,15 +6940,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1265.5563\uff0c\u58f0\u660e 1261.8000\uff08\u504f\u5dee +3.7563\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1261.8000\uff0c\u58f0\u660e 1261.8000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1265.5563",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 9,
       "ref_cost_published": 1261.8,
       "ref_cost_recomputed": 1265.5563,
@@ -6788,15 +7082,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1095.6439\uff0c\u58f0\u660e 1092.3000\uff08\u504f\u5dee +3.3439\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1092.3000\uff0c\u58f0\u660e 1092.3000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1095.6439",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 8,
       "ref_cost_published": 1092.3,
       "ref_cost_recomputed": 1095.6439,
@@ -6924,15 +7224,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 926.8987\uff0c\u58f0\u660e 923.7000\uff08\u504f\u5dee +3.1987\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 923.7000\uff0c\u58f0\u660e 923.7000\uff08\u504f\u5dee -0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 926.8987",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 5,
       "ref_cost_published": 923.7,
       "ref_cost_recomputed": 926.8987,
@@ -7060,15 +7366,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 786.5389\uff0c\u58f0\u660e 783.5000\uff08\u504f\u5dee +3.0389\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 783.5000\uff0c\u58f0\u660e 783.5000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 786.5389",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 4,
       "ref_cost_published": 783.5,
       "ref_cost_recomputed": 786.5389,
@@ -7196,15 +7508,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1157.6648\uff0c\u58f0\u660e 1154.0000\uff08\u504f\u5dee +3.6648\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1154.0000\uff0c\u58f0\u660e 1154.0000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1157.6648",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 7,
       "ref_cost_published": 1154.0,
       "ref_cost_recomputed": 1157.6648,
@@ -7332,15 +7650,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1054.6057\uff0c\u58f0\u660e 1051.1000\uff08\u504f\u5dee +3.5057\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 1051.1000\uff0c\u58f0\u660e 1051.1000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 1054.6057",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 7,
       "ref_cost_published": 1051.1,
       "ref_cost_recomputed": 1054.6057,
@@ -7468,15 +7792,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 966.3724\uff0c\u58f0\u660e 962.9000\uff08\u504f\u5dee +3.4724\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 962.9000\uff0c\u58f0\u660e 962.9000\uff08\u504f\u5dee -0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 966.3724",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 6,
       "ref_cost_published": 962.9,
       "ref_cost_recomputed": 966.3724,
@@ -7604,15 +7934,21 @@
         },
         {
           "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 778.9256\uff0c\u58f0\u660e 776.1000\uff08\u504f\u5dee +2.8256\uff09",
-          "severity": "advisory"
+          "ok": true,
+          "detail": "\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570 776.1000\uff0c\u58f0\u660e 776.1000\uff08\u504f\u5dee +0.0000\uff09\uff1b\u7cbe\u786e\u6b27\u6c0f 778.9256",
+          "severity": "error"
+        },
+        {
+          "check": "ref_routes_feasible_source",
+          "ok": true,
+          "detail": "\u91c7\u7528\u9010\u8fb9\u622a\u65ad\u4e00\u4f4d\u5c0f\u6570\u7684\u4e0a\u6e38\u8ddd\u79bb\u7ea6\u5b9a\u68c0\u9a8c\u8f7d\u91cd\u4e0e\u65f6\u95f4\u7a97",
+          "severity": "error"
         }
       ],
-      "checks_passed": 19,
-      "checks_total": 20,
+      "checks_passed": 21,
+      "checks_total": 21,
       "errors": 0,
-      "advisories": 1,
+      "advisories": 0,
       "ref_vehicles": 4,
       "ref_cost_published": 776.1,
       "ref_cost_recomputed": 778.9256,
@@ -7622,238 +7958,12 @@
   "failures": [],
   "advisories": [
     {
-      "name": "C101",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C102",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C103",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.0649\uff0c\u58f0\u660e 826.3000\uff08\u504f\u5dee +1.7649\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C104",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 824.7767\uff0c\u58f0\u660e 822.9000\uff08\u504f\u5dee +1.8767\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C105",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C106",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C107",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C108",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C109",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 828.9369\uff0c\u58f0\u660e 827.3000\uff08\u504f\u5dee +1.6369\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C201",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 591.5566\uff0c\u58f0\u660e 589.1000\uff08\u504f\u5dee +2.4566\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C202",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 591.5566\uff0c\u58f0\u660e 589.1000\uff08\u504f\u5dee +2.4566\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C203",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 591.1734\uff0c\u58f0\u660e 588.7000\uff08\u504f\u5dee +2.4734\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C204",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 590.5987\uff0c\u58f0\u660e 588.1000\uff08\u504f\u5dee +2.4987\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C205",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 588.8760\uff0c\u58f0\u660e 586.4000\uff08\u504f\u5dee +2.4760\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C206",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 588.4928\uff0c\u58f0\u660e 586.0000\uff08\u504f\u5dee +2.4928\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C207",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 588.2863\uff0c\u58f0\u660e 585.8000\uff08\u504f\u5dee +2.4863\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "C208",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 588.3238\uff0c\u58f0\u660e 585.8000\uff08\u504f\u5dee +2.5238\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R101",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1642.8769\uff0c\u58f0\u660e 1637.7000\uff08\u504f\u5dee +5.1769\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
       "name": "R102",
       "advisories": [
         {
           "check": "ref_routes_feasible_strict",
           "ok": false,
           "detail": "1 \u6761\u8def\u5f84\u8fdd\u53cd\u65f6\u95f4\u7a97\u7684\u5e45\u5ea6 <=0.5: #18",
-          "severity": "advisory"
-        },
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1471.7457\uff0c\u58f0\u660e 1466.6000\uff08\u504f\u5dee +5.1457\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R103",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1213.6239\uff0c\u58f0\u660e 1208.7000\uff08\u504f\u5dee +4.9239\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R104",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 976.6932\uff0c\u58f0\u660e 971.5000\uff08\u504f\u5dee +5.1932\uff09",
           "severity": "advisory"
         }
       ]
@@ -7866,23 +7976,6 @@
           "ok": false,
           "detail": "1 \u6761\u8def\u5f84\u8fdd\u53cd\u65f6\u95f4\u7a97\u7684\u5e45\u5ea6 <=0.5: #2",
           "severity": "advisory"
-        },
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1360.1203\uff0c\u58f0\u660e 1355.3000\uff08\u504f\u5dee +4.8203\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R106",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1239.3719\uff0c\u58f0\u660e 1234.6000\uff08\u504f\u5dee +4.7719\uff09",
-          "severity": "advisory"
         }
       ]
     },
@@ -7893,12 +7986,6 @@
           "check": "ref_routes_feasible_strict",
           "ok": false,
           "detail": "1 \u6761\u8def\u5f84\u8fdd\u53cd\u65f6\u95f4\u7a97\u7684\u5e45\u5ea6 <=0.5: #1",
-          "severity": "advisory"
-        },
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1069.0947\uff0c\u58f0\u660e 1064.6000\uff08\u504f\u5dee +4.4947\uff09",
           "severity": "advisory"
         }
       ]
@@ -7911,45 +7998,6 @@
           "ok": false,
           "detail": "1 \u6761\u8def\u5f84\u8fdd\u53cd\u65f6\u95f4\u7a97\u7684\u5e45\u5ea6 <=0.5: #8",
           "severity": "advisory"
-        },
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 936.6891\uff0c\u58f0\u660e 932.1000\uff08\u504f\u5dee +4.5891\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R109",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1151.9117\uff0c\u58f0\u660e 1146.9000\uff08\u504f\u5dee +5.0117\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R110",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1072.4772\uff0c\u58f0\u660e 1068.0000\uff08\u504f\u5dee +4.4772\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R111",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1053.4958\uff0c\u58f0\u660e 1048.7000\uff08\u504f\u5dee +4.7958\uff09",
-          "severity": "advisory"
         }
       ]
     },
@@ -7960,122 +8008,6 @@
           "check": "ref_routes_feasible_strict",
           "ok": false,
           "detail": "1 \u6761\u8def\u5f84\u8fdd\u53cd\u65f6\u95f4\u7a97\u7684\u5e45\u5ea6 <=0.5: #8",
-          "severity": "advisory"
-        },
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 953.4392\uff0c\u58f0\u660e 948.6000\uff08\u504f\u5dee +4.8392\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R201",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1147.8203\uff0c\u58f0\u660e 1143.2000\uff08\u504f\u5dee +4.6203\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R202",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1034.3472\uff0c\u58f0\u660e 1029.6000\uff08\u504f\u5dee +4.7472\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R203",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 874.8689\uff0c\u58f0\u660e 870.8000\uff08\u504f\u5dee +4.0689\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R204",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 735.8613\uff0c\u58f0\u660e 731.3000\uff08\u504f\u5dee +4.5613\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R205",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 954.1617\uff0c\u58f0\u660e 949.8000\uff08\u504f\u5dee +4.3617\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R206",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 879.8934\uff0c\u58f0\u660e 875.9000\uff08\u504f\u5dee +3.9934\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R207",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 798.0835\uff0c\u58f0\u660e 794.0000\uff08\u504f\u5dee +4.0835\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R208",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 705.3312\uff0c\u58f0\u660e 701.0000\uff08\u504f\u5dee +4.3312\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R209",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 859.3904\uff0c\u58f0\u660e 854.8000\uff08\u504f\u5dee +4.5904\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "R210",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 904.8073\uff0c\u58f0\u660e 900.5000\uff08\u504f\u5dee +4.3073\uff09",
           "severity": "advisory"
         }
       ]
@@ -8088,12 +8020,6 @@
           "ok": false,
           "detail": "1 \u6761\u8def\u5f84\u8fdd\u53cd\u65f6\u95f4\u7a97\u7684\u5e45\u5ea6 <=0.5: #3",
           "severity": "advisory"
-        },
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 751.2933\uff0c\u58f0\u660e 746.7000\uff08\u504f\u5dee +4.5933\uff09",
-          "severity": "advisory"
         }
       ]
     },
@@ -8105,45 +8031,6 @@
           "ok": false,
           "detail": "1 \u6761\u8def\u5f84\u8fdd\u53cd\u65f6\u95f4\u7a97\u7684\u5e45\u5ea6 <=0.5: #4",
           "severity": "advisory"
-        },
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1623.5571\uff0c\u58f0\u660e 1619.8000\uff08\u504f\u5dee +3.7571\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC102",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1461.3341\uff0c\u58f0\u660e 1457.4000\uff08\u504f\u5dee +3.9341\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC103",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1261.6719\uff0c\u58f0\u660e 1258.0000\uff08\u504f\u5dee +3.6719\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC104",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1135.4794\uff0c\u58f0\u660e 1132.3000\uff08\u504f\u5dee +3.1794\uff09",
-          "severity": "advisory"
         }
       ]
     },
@@ -8154,133 +8041,6 @@
           "check": "ref_routes_feasible_strict",
           "ok": false,
           "detail": "1 \u6761\u8def\u5f84\u8fdd\u53cd\u65f6\u95f4\u7a97\u7684\u5e45\u5ea6 <=0.5: #1",
-          "severity": "advisory"
-        },
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1517.9298\uff0c\u58f0\u660e 1513.7000\uff08\u504f\u5dee +4.2298\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC106",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1376.2560\uff0c\u58f0\u660e 1372.7000\uff08\u504f\u5dee +3.5560\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC107",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1211.1258\uff0c\u58f0\u660e 1207.8000\uff08\u504f\u5dee +3.3258\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC108",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1117.5265\uff0c\u58f0\u660e 1114.2000\uff08\u504f\u5dee +3.3265\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC201",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1265.5563\uff0c\u58f0\u660e 1261.8000\uff08\u504f\u5dee +3.7563\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC202",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1095.6439\uff0c\u58f0\u660e 1092.3000\uff08\u504f\u5dee +3.3439\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC203",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 926.8987\uff0c\u58f0\u660e 923.7000\uff08\u504f\u5dee +3.1987\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC204",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 786.5389\uff0c\u58f0\u660e 783.5000\uff08\u504f\u5dee +3.0389\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC205",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1157.6648\uff0c\u58f0\u660e 1154.0000\uff08\u504f\u5dee +3.6648\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC206",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 1054.6057\uff0c\u58f0\u660e 1051.1000\uff08\u504f\u5dee +3.5057\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC207",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 966.3724\uff0c\u58f0\u660e 962.9000\uff08\u504f\u5dee +3.4724\uff09",
-          "severity": "advisory"
-        }
-      ]
-    },
-    {
-      "name": "RC208",
-      "advisories": [
-        {
-          "check": "ref_cost_matches_declared",
-          "ok": false,
-          "detail": "\u91cd\u65b0\u8ba1\u7b97 778.9256\uff0c\u58f0\u660e 776.1000\uff08\u504f\u5dee +2.8256\uff09",
           "severity": "advisory"
         }
       ]
@@ -8596,9 +8356,9 @@
   },
   "summary": {
     "instances": 56,
-    "checks_total": 1120,
+    "checks_total": 1176,
     "errors": 0,
-    "advisories": 56,
+    "advisories": 8,
     "subsets": 3
   }
 }

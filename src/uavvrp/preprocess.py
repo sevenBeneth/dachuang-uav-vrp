@@ -1,33 +1,18 @@
-"""Solomon VRPTW 算例集的预处理流水线。
+"""Solomon 数据预处理、参考路径核验和子算例生成。
 
-本模块依次完成以下工作：
-
-1. **加载** ``data/raw/solomon`` 下每一对 ``<name>.vrp`` / ``<name>.sol``。
-2. **校验**每个算例的结构：声明的 ``DIMENSION`` 与实际段落长度是否一致、车场
-   是否恰好一个、车场的需求量/时间窗、单个需求是否能装入一辆车、时间窗是否满足
-   ``ready <= due``，以及总需求是否在声明的车队运力之内。
-3. **交叉核对**每个参考解与对应算例：每个客户是否恰好被服务一次、每条路径是否
-   同时满足载量与时间窗约束、重新计算的路径距离是否等于公布的 ``Cost`` 行。
-   最后一项检查才是真正的证据，说明我们的距离与时间约定与 Solomon 一致——如果
-   解析器在节点编号或取整规则上有偏差，成本不可能精确到一位小数地吻合。
-4. **归一化**每个算例为 JSON，车场置于下标 0。
-5. **抽取子算例**：按需截取指定规模（NSGA-II 基线所用的 10 客户算例），并从完整
-   的基准解继承一个参考解。
-6. **报告**：逐算例的 manifest CSV、机器可读的校验报告，以及控制台摘要。
-
-本流水线刻意采用 "失败即大声报错" 的策略：任何检查失败都会被记录，且退出码变为
-非零，因此有问题的输入集绝不会悄无声息地变成对外发布的结果。
-"""
+上游文件声明成本按逐边截断一位小数核验；精确欧氏结果单独保留，
+不得把不同精度间的成本差解释为数据缺陷。结构及上游约定检查失败时退出。"""
 
 from __future__ import annotations
 
 import json
+import math
 from dataclasses import dataclass, field, asdict
 from pathlib import Path
 from typing import Iterable, Sequence
 
 from .solomon import Instance, Solution, parse_sol, parse_vrp, portable_path
-from .vrptw import REFERENCE_TOLERANCE, simulate_route
+from .vrptw import REFERENCE_TOLERANCE, simulate_route, route_distance
 
 __all__ = [
     "Check",
@@ -230,15 +215,7 @@ def restrict_solution(inst: Instance, sol: Solution, customers: Sequence[int]) -
 
 
 def check_reference(inst: Instance, sol: Solution) -> tuple[list[Check], float]:
-    """校验公布的参考解。返回 (checks, 重新计算的距离)。
-
-    结构性预期（每个客户恰好被服务一次、车队规模不超过声明上限）属于
-    :data:`ERROR`。而路径是否*复现了声明的成本*、是否*通过时间窗校验*则属于
-    :data:`ADVISORY`：56 个上游文件中有 48 个声明了一个其自身路径根本达不到的
-    成本，另有 8 个文件含有一条违反时间窗不足 0.4 个时间单位的路径。这是公布
-    数据本身的缺陷，而不是本流水线的缺陷，因此连同完整证据一并报告，既不隐瞒，
-    也不将其视为致命错误。
-    """
+    """核验参考路径的结构、上游精度成本及精确欧氏下的可行性。"""
     checks: list[Check] = []
     dist = inst.distance_matrix()
 
@@ -274,12 +251,16 @@ def check_reference(inst: Instance, sol: Solution) -> tuple[list[Check], float]:
     loose_bad: list[str] = []
     total = 0.0
     for idx, route in enumerate(sol.routes, start=1):
+        if any(c not in expected for c in route):
+            loose_bad.append(f"#{idx}")
+            strict_bad.append(f"#{idx}")
+            continue
+        total += route_distance(inst, route, dist)
         stats = simulate_route(inst, route, dist, tolerance=REFERENCE_TOLERANCE)
         if stats is None:
             loose_bad.append(f"#{idx}")
             strict_bad.append(f"#{idx}")
             continue
-        total += stats.distance
         if simulate_route(inst, route, dist) is None:
             strict_bad.append(f"#{idx}")
 
@@ -313,15 +294,22 @@ def check_reference(inst: Instance, sol: Solution) -> tuple[list[Check], float]:
     )
 
     if sol.cost is not None:
-        delta = total - sol.cost
+        truncated = [[math.floor(value*10)/10 for value in row] for row in dist]
+        source_cost = sum(route_distance(inst, route, truncated) for route in sol.routes
+                          if all(c in expected for c in route))
+        delta = source_cost - sol.cost
         checks.append(
             Check(
                 "ref_cost_matches_declared",
                 abs(delta) <= COST_TOLERANCE,
-                f"重新计算 {total:.4f}，声明 {sol.cost:.4f}（偏差 {delta:+.4f}）",
-                severity=ADVISORY,
+                f"逐边截断一位小数 {source_cost:.4f}，声明 {sol.cost:.4f}（偏差 {delta:+.4f}）；精确欧氏 {total:.4f}",
+                severity=ERROR,
             )
         )
+        source_feasible = all(simulate_route(inst, route, truncated) is not None for route in sol.routes
+                              if all(c in expected for c in route))
+        checks.append(Check("ref_routes_feasible_source", source_feasible,
+                            "采用逐边截断一位小数的上游距离约定检验载重与时间窗", severity=ERROR))
     else:
         checks.append(
             Check(

@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "uavvrp"
-version = "0.1.0"
-description = "多无人机配送路径规划：Solomon 数据预处理与一个 NSGA-II 基线"
+version = "0.2.0"
+description = "多无人机跨江配送：三目标建模、ALNS-NSGA-II 与可复现实验"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
@@ -13,6 +13,8 @@ dependencies = [
     "numpy>=1.26",
     "pandas>=2.0",
     "matplotlib>=3.8",
+    "scipy>=1.11",
+    "pymoo>=0.6.2,<0.7",
 ]
 
 [project.optional-dependencies]

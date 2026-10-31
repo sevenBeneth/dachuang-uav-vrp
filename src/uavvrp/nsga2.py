@@ -1,36 +1,7 @@
-"""从零实现的教科书式 NSGA-II。
+"""带非支配排序、拥挤距离和精英保留的 NSGA-II。
 
-为什么不使用框架
-----------------
-*基线* 的意义在于每个算子都可被检视。本模块严格按照 Deb, Pratap, Agarwal 和
-Meyarivan (2002) 在 "A fast and elitist multiobjective genetic algorithm:
-NSGA-II", *IEEE Transactions on Evolutionary Computation* 6(2):182-197 中
-描述的算法实现：
-
-1. **快速非支配排序** -- 在 O(MN^2) 次目标比较内把种群划分为若干 Pareto 前沿。
-2. **拥挤距离** -- 一个前沿内部，每个解周围邻居的疏密程度，用作次级选择准则。
-3. **二元锦标赛选择** -- 先比较秩（rank），再比较拥挤距离。
-4. **(mu + lambda) 精英保留** -- 父代与子代共同竞争；前沿被整体接纳，直到种群
-   即将超出规模，溢出的那个前沿按拥挤距离降序截断。
-
-重复解消除
-----------
-Deb 等人的存活选择步骤会接纳一个前沿中所有能放得下的成员，而相等的目标向量
-互不支配 -- 因此一个由同一个解的副本构成的前沿会被整体接纳。在小规模离散问题
-上这是致命的：种群会在若干代内坍缩到一两个不同的解，变异算子再也没有可用
-的多样性。因此本实现在存活选择之后额外执行一步（这是可用的 NSGA-II 代码中的
-标准做法）：目标向量若已经出现过，其冗余副本会被替换为变异后的变体并重新
-评估（轮数由 ``max_dedup_rounds`` 限制）。若要恢复未经修改的流程，设置
-``deduplicate=False``。
-
-本模块对编码方式是通用的。问题对象需要提供 ``sample``、``evaluate``、
-``crossover`` 和 ``mutate``；因此这里使用的排列型问题得到的是顺序交叉（OX）与
-重排变异，而不是实数编码的 SBX 和多项式变异，后者正是排序类问题的标准选择。
-*选择* 机制 -- 也就是让它成为 NSGA-II 的那部分 -- 未做任何改动。
-
-每个随机决策都取自同一个带种子的 ``numpy`` 生成器，因此一次运行可由其种子
-逐比特复现。
-"""
+问题对象提供采样、评价、交叉和变异接口。可选的目标向量去重通过有限次数
+变异替换冗余副本；关闭 deduplicate 可运行不含该步骤的版本。"""
 
 from __future__ import annotations
 
@@ -210,6 +181,8 @@ class NSGA2:
     ) -> None:
         if pop_size < 2:
             raise ValueError("pop_size must be at least 2")
+        if n_gen < 0 or max_dedup_rounds < 0:
+            raise ValueError("generation and deduplication counts must be nonnegative")
         if not 0.0 <= crossover_prob <= 1.0:
             raise ValueError("crossover_prob must be in [0, 1]")
         if not 0.0 <= mutation_prob <= 1.0:
@@ -313,17 +286,26 @@ class NSGA2:
             "distinct_solutions": int(np.unique(np.round(F, 9), axis=0).shape[0]),
             "best_objectives": front.min(axis=0).tolist(),
         }
+        if F.shape[1] == 3:
+            record['front'] = np.unique(front, axis=0).tolist()
         if self.hypervolume_reference is not None and F.shape[1] == 2:
             record["hypervolume"] = hypervolume_2d(front, self.hypervolume_reference)
         return record
 
     # -- 公开 API ----------------------------------------------------------
 
+    def initialize(self, rng: np.random.Generator) -> list[Any]:
+        return [self.problem.sample(rng) for _ in range(self.pop_size)]
+
+    def enhance(self, population, F, rng, generation):
+        """返回局部搜索候选、目标矩阵和额外评价次数。"""
+        return [], np.empty((0, self.problem.n_obj)), 0
+
     def run(self) -> NSGA2Result:
         rng = np.random.default_rng(self.seed)
         problem = self.problem
 
-        population = [problem.sample(rng) for _ in range(self.pop_size)]
+        population = self.initialize(rng)
         F = np.asarray([problem.evaluate(ind) for ind in population], dtype=float)
         n_evaluations = len(population)
 
@@ -342,6 +324,11 @@ class NSGA2:
             # (mu + lambda)：父代与子代共同竞争。
             combined = population + offspring
             combined_F = np.vstack([F, offspring_F])
+            enhanced, enhanced_F, extra = self.enhance(population, F, rng, generation)
+            n_evaluations += extra
+            if enhanced:
+                combined += enhanced
+                combined_F = np.vstack([combined_F, enhanced_F])
             fronts, _ = fast_non_dominated_sort(combined_F)
             crowding = self._crowding_for_all(fronts, combined_F)
 
